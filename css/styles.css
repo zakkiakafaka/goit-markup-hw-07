@@ -1,0 +1,270 @@
+/*------- Variables ------------*/
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --section-header-color: #2E2F42;
+    --accent-color: #404BBF;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #E5E5E5;
+    --tertiary-background-color: #2E2F42;
+    --quaternary-background-color: #F4F4FD;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    color: var(--secondary-text-color);
+    background-color: var(--primary-background-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.link {
+    text-decoration: none
+}
+
+/*------ MAIN PAGE CSS ------------ */
+
+/*-----------HEADER---------------*/
+
+.header {
+    background-color: var(--primary-background-color);
+}
+
+.logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+
+.logo {
+    color: var(--primary-text-color);
+}
+
+.navigation-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.navigation-link:hover {
+    color: var(--accent-color);
+}
+
+.navigation-link:focus {
+    color: var(--accent-color);
+}
+
+.adress {
+    font-style: normal;
+}
+
+.adress-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+.adress-link:hover,
+.adress-link:focus {
+    color: var(--accent-color);
+}
+
+/*---------------HERO-------------*/
+
+.hero-section {
+    background-color: var(--tertiary-background-color);
+}
+
+.main-header {
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+}
+
+.hero-btn {
+    font-family: "Roboto", sans-serif;
+    align-items: flex-start;
+    background: #4D5AE5;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    align-items: center;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+
+}
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--accent-color);
+    cursor: pointer;
+}
+
+/*------------------FEATURES--------*/
+
+.features-section {
+    background-color: var(--secondary-background-color);
+}
+
+.features-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--section-header-color);
+}
+
+.features-description{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+    }
+
+/*----------OCCUPATION------------*/
+
+.occupation-section {
+    background-color: var(--secondary-background-color);
+}
+
+.occupation-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--section-header-color);
+}
+
+/*---------------TEAM---------*/
+
+.team-section {
+    background-color: var(--quaternary-background-color);
+}
+
+.team-header {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--section-header-color);
+}
+
+.team-list-item {
+    background-color: white;
+}
+
+.employee_name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+
+.position {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
+
+/*--------------------FOOTER----------------------*/
+
+.footer {
+    background-color: var(--tertiary-background-color);
+}
+
+.footer-logo-link {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
+}
+
+.footer-logo {
+    color: #F4F4FD;
+}
+
+.footer-text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #F4F4FD;
+}
+
+/*---------------PORTFOLIO CSS----------*/
+
+
+.portfolio-section {
+    background-color: var(--secondary-background-color);
+}
+
+.filter-btn {
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+}
+
+.filter-btn:hover,
+.filter-btn:focus {
+    cursor: pointer;
+    background: #404BBF;
+    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 4px;
+    color: #FFFFFF;
+}
+
+.portfolio-list-header {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--primary-text-color);
+}
+.portfolio-list-description {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--secondary-text-color);
+}
