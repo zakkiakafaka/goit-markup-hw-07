@@ -70,6 +70,12 @@ body {
     text-decoration: none
 } */
 
+.container {
+    width: 1158px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
 /*------ MAIN PAGE CSS ------------ */
 
 /*-----------HEADER---------------*/
@@ -94,6 +100,14 @@ body {
     color: var(--primary-text-color);
 }
 
+.navigation {
+    display: flex;
+}
+
+.navigation-list {
+    display: flex;
+}
+
 .navigation-link {
     font-weight: 500;
     font-size: 16px;
@@ -112,6 +126,10 @@ body {
 
 .adress {
     font-style: normal;
+}
+
+.adress-list {
+    display: flex;
 }
 
 .adress-link {
