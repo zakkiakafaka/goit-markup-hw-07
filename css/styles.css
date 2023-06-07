@@ -124,7 +124,7 @@ body {
 
 .navigation {
     display: flex;
-    align-items: baseline;
+    align-items: center;
     padding: 24px 0;
     /* margin-right: auto; */
 }
@@ -318,16 +318,20 @@ body {
 
 .team-list-item {
     flex-basis: calc(100% / 3 - 24px);
-    padding-bottom: 32px;
+    /* flex-basis: calc((100% - 24px * 3) / 4); */
     background-color: white;
+    border-radius: 0px 0px 4px 4px; 
 }
 
 /* .team-list-item:not(:last-child) {
     margin-right: 24px;
 } */
 
-.employee-photo {
-    margin-bottom: 32px;
+.employee-thumb {
+    padding-top: 32px; 
+    padding-bottom: 32px; 
+    padding-left: 16px; 
+    padding-right: 16px
 }
 
 .employee-name {
