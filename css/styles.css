@@ -134,16 +134,14 @@ body {
     /* gap: 40px; */
 }
 
-.navigation-list-item {
-    padding-top: 24px; 
-    padding-bottom: 24px;
-}
-
 .navigation-list-item:not(:last-child) {
     margin-right: 40px;
 }
 
 .navigation-link {
+    display: block;
+    padding-top: 24px; 
+    padding-bottom: 24px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.5;
@@ -165,11 +163,14 @@ body {
 
 .adress-list {
     display: flex;
-    padding: 24px 0;
+    /* padding: 24px 0; */
     gap: 40px;
 }
 
 .adress-link {
+    display: block;
+    padding-top: 24px; 
+    padding-bottom: 24px;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
