@@ -62,6 +62,20 @@ body {
     background-color: var(--primary-background-color);
 }
 
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
+}
+
 /* .list {
     list-style: none;
 } */
@@ -214,7 +228,6 @@ body {
 
 .features-section {
     padding: 120px 0;
-    background-color: var(--secondary-background-color);
 }
 
 .features-header {
@@ -224,6 +237,10 @@ body {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--section-header-color);
+}
+
+.features-list-item {
+    flex-basis: calc(100% / 3 - 24px);
 }
 
 .features-list {
@@ -247,7 +264,6 @@ body {
 
 .occupation-section {
     padding-bottom: 120px;
-    background-color: var(--secondary-background-color);
 }
 
 .occupation-header {
@@ -263,12 +279,17 @@ body {
 
 .occupation-list {
     display: flex;
-    /* gap: 24px; */
+    gap: 24px;
 }
 
-.occupation-list-item:not(:last-child) {
-    margin-right: 24px;
+.occupation-list-item {
+    /* width: calc((100% - 48px) / 3); */
+    flex-basis: calc(100% / 2 - 24px);
 }
+
+/* .occupation-list-item:not(:last-child) {
+    margin-right: 24px;
+} */
 
 
 
@@ -292,17 +313,18 @@ body {
 
 .team-list {
     display: flex;
-    /* gap: 24px; */
+    gap: 24px;
 }
 
 .team-list-item {
+    flex-basis: calc(100% / 3 - 24px);
     padding-bottom: 32px;
     background-color: white;
 }
 
-.team-list-item:not(:last-child) {
+/* .team-list-item:not(:last-child) {
     margin-right: 24px;
-}
+} */
 
 .employee-photo {
     margin-bottom: 32px;
@@ -364,7 +386,6 @@ body {
 
 .portfolio-section {
     padding: 96px 0 120px 0;
-    background-color: var(--secondary-background-color);
 }
 
 .filter-list {
@@ -404,17 +425,22 @@ body {
 .portfolio-list {
     display: flex;
     flex-wrap: wrap;
+    gap: 48px 24px;
+    /* for -margin
     margin-top: -48x;
-    margin-left: -24px;
+    margin-left: -24px; */
 }
 
 .portfolio-list-item {
     flex-basis: calc(100% / 3 - 24px);
+    /* for -margin
     margin-left: 24px;
-    margin-top: 48px;
+    margin-top: 48px; */
+
     /* padding-bottom: 32px; */
     /* width: calc((100% - 48px) / 3); */
     /* border: 1px solid #E7E9FC; */
+
     background-color: #FFFFFF;
 }
 
