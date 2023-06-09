@@ -381,6 +381,7 @@ body {
 
 .team-social-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
 }
 
@@ -400,6 +401,9 @@ body {
     background-color: var(--accent-color);
 }
 
+.team-social-icon {
+    fill: #f4f4fd;
+}
 
 /* -----------------CUSTOMERS-------------------- */
 
@@ -431,6 +435,7 @@ body {
     height: 88px;
     border: 1px solid #8E8F99;
     border-radius: 4px;
+    color: #8e8f99;
 }
 
 .customers-icon {
@@ -505,7 +510,7 @@ body {
 
 .studio-social-list {
     display: flex;
-    gap: 24px;
+    gap: 16px;
 }
 
 .studio-social-link {
@@ -521,6 +526,10 @@ body {
 .studio-social-link:hover,
 .studio-social-link:focus {
     background-color: #31D0AA;h
+}
+
+.studio-social-icon {
+    fill: #f4f4fd;
 }
 
 /*---------------PORTFOLIO CSS----------*/
@@ -603,7 +612,10 @@ body {
     display: block;
 }
 
-.portfolio-list-link:hover,
+.portfolio-list-link:hover {
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
 .portfolio-list-link:focus {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
