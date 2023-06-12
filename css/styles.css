@@ -428,12 +428,17 @@ body {
     gap: 24px;
 }
 
+.customers-list-item {
+    flex-basis: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
 .customers-link {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 168px;
-    height: 88px;
+    width: 100%;
+    height: 100%;
     border: 1px solid #8E8F99;
     border-radius: 4px;
     color: #8e8f99;
