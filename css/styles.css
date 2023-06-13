@@ -471,6 +471,7 @@ body {
 
 .customers-icon {
     fill: #8e8f99;
+    transition: fill var(--base-transition);
 }
 
 .customers-link:hover,
