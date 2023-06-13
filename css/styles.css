@@ -704,8 +704,8 @@ body {
     transform: translate(0, 0);
 }
 
-.portfoli-list-link:focus .active-text {
-    transform: translateY(0%);
+.portfolio-list-link:focus .active-text {
+    transform: translate(0, 0);
 }
 
 /* --------------------overlay------------- */
