@@ -171,13 +171,11 @@ body {
 
 .navigation-link:hover {
     color: var(--accent-color);
-    /* transition: color var(--base-transition); */
 
 }
 
 .navigation-link:focus {
     color: var(--accent-color);
-    /* transition: color var(--base-transition); */
 }
 
 .adress {
@@ -253,6 +251,7 @@ body {
     align-items: center;
     letter-spacing: 0.04em;
     color: #FFFFFF;
+    transition: background-color var(--base-transition);
 }
 
 .hero-btn:hover,
@@ -419,6 +418,7 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition: background-color var(--base-transition);
 }
 
 .team-social-link:hover,
@@ -466,6 +466,7 @@ body {
     border: 1px solid #8E8F99;
     border-radius: 4px;
     color: #8e8f99;
+    transition: border-color var(--base-transition), color var(--base-transition);
 }
 
 .customers-icon {
@@ -551,6 +552,7 @@ body {
     height: 40px;
     border-radius: 50%;
     background-color: #4D5AE5;
+    transition: background-color var(--base-transition);
 }
 
 .studio-social-link:hover,
@@ -592,6 +594,7 @@ body {
     text-align: center;
     letter-spacing: 0.04em;
     color: #4D5AE5;
+    transition: color var(--base-transition), background-color var(--base-transition), border-color var(--base-transition), box-shadow var(--base-transition);
 }
 
 .filter-btn:hover,
@@ -638,6 +641,7 @@ body {
 .portfolio-list-link {
     display: block;
     outline: none;
+    transition: box-shadow var(--base-transition);
 }
 
 .portfolio-list-link:hover {
@@ -667,6 +671,7 @@ body {
     letter-spacing: 0.02em;
     background-color: #4D5AE5;
     color: #F4F4FD;
+    transition: transform var(--base-transition);
 }
 
 .portfolio-description-thumb {
@@ -699,6 +704,10 @@ body {
     transform: translate(0, 0);
 }
 
+.portfoli-list-link:focus .active-text {
+    transform: translate(0, 0);
+}
+
 /* --------------------overlay------------- */
 
 .overlay {
@@ -710,6 +719,7 @@ body {
     z-index: 2;
     background-color: rgba(46, 47, 66, 0.4);
     opacity: 1;
+    transition: opacity var(--base-transition), visibility var(--base-transition);
 }
 
 .is-hidden {
@@ -728,6 +738,7 @@ body {
     background-color: #FCFCFC;
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 4px;
+    transition: transform var(--base-transition);
 }
 
 .modal-close-btn {
@@ -742,6 +753,11 @@ body {
     background-color: #E7E9FC;;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
+    transition: background-color var(--base-transition), border var(--base-transition);
+}
+
+.close-icon {
+    transition: fill var(--base-transition);
 }
 
 .modal-close-btn:hover,
