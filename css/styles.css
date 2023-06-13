@@ -687,7 +687,6 @@ body {
     color: var(--secondary-text-color);
 }
 
-.portfolio-list-link:hover .overlay-card {
+.portfolio-list-link:hover .active-text {
     transform: translate(0, 0);
-    opacity: 1;
 }
