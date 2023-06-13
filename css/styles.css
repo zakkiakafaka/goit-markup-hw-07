@@ -170,10 +170,13 @@ body {
 
 .navigation-link:hover {
     color: var(--accent-color);
+    transition: color var(--base-transition);
+
 }
 
 .navigation-link:focus {
     color: var(--accent-color);
+    transition: color var(--base-transition);
 }
 
 .adress {
@@ -201,6 +204,7 @@ body {
 .adress-link:hover,
 .adress-link:focus {
     color: var(--accent-color);
+    transition: color var(--base-transition);
 }
 
 /*---------------HERO-------------*/
