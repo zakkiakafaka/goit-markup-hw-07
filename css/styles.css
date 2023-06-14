@@ -587,8 +587,13 @@ body {
 
 .footer-form-input {
     width: 264px;
+    height: 40px;
     padding: 8px 16px 8px 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     background-color: transparent;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
     border-radius: 4px;
     outline: none;
     border: 1px solid #FFFFFF;
@@ -606,6 +611,7 @@ body {
 }
 
 .subscribe-btn {
+    min-width: 165px;
     display: flex;
     justify-content: center;
     align-items: center;
