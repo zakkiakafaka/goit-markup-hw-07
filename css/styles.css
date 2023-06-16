@@ -9,6 +9,7 @@
     --tertiary-background-color: #2E2F42;
     --quaternary-background-color: #F4F4FD;
     --base-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --label-text-color: #8e8f99;
 }
 
 ul {
@@ -888,9 +889,8 @@ body {
 }
 
 .modal-form-input:focus{
-    border-color: var(--accent-color);
+    border-color: #4D5AE5;;
 }
-
 
 .input-icon{
     position: absolute;
@@ -901,7 +901,7 @@ body {
 }
 
 .modal-form-input:focus:focus + .input-icon{
-    fill: var(--accent-color);
+    fill: #4D5AE5;;
 }
 
 .textarea-wrapper{
@@ -925,7 +925,7 @@ body {
 }
 
 .area-form-comment:focus{
-    border-color: var(--accent-color);
+    border-color: #4D5AE5;
 }
 
 .checkbox-wrapper{
@@ -933,11 +933,12 @@ body {
 }
 
 .checkbox-label{
-    color: var(--border-for-icons);
+    color: var(--label-text-color);
     font-size: 12px;
     line-height: 1.17;
     letter-spacing: 0.04em; 
     user-select: none;
+    cursor: pointer;
 }
 
 .fake-checkbox{
@@ -955,9 +956,6 @@ body {
     fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-label{
-    cursor: pointer;
-}
 
 .checkbox:checked + .checkbox-label>.fake-checkbox{
     background-color: #404BBF;
