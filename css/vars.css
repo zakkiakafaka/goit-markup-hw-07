@@ -1,0 +1,12 @@
+:root {
+    --primary-text-color: #2E2F42;
+    --secondary-text-color: #434455;
+    --section-header-color: #2E2F42;
+    --accent-color: #404BBF;
+    --primary-background-color: #FFFFFF;
+    --secondary-background-color: #E5E5E5;
+    --tertiary-background-color: #2E2F42;
+    --quaternary-background-color: #F4F4FD;
+    --base-transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    --label-text-color: #8e8f99;
+}
