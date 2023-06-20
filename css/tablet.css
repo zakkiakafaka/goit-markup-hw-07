@@ -25,6 +25,7 @@
 }
 
 .logo-link {
+    display: block;
     padding-top: 24px;
     padding-bottom: 22px;
 }
@@ -35,8 +36,12 @@
 }
 
 .navigation-link {
+    display: block;
     padding-top: 24px;
     padding-bottom: 22px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
 }
 
 .is-active {
@@ -57,6 +62,14 @@
 
 .adress-list-item:not(:last-child) {
     margin-bottom: 12px;
+}
+
+.adress-link {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.04em;
 }
 
 .burger-menu-btn {
@@ -112,7 +125,7 @@
 }
 
 .features-header {
-    text-align: center;
+    text-align: left;
 }
 
 /*-----------------------------TEAM------------------------*/
@@ -124,6 +137,10 @@
 }
 
 /* ---------------------------CUSTOMERS-------------------- */
+
+.customers-section .container {
+    padding: 0;
+}
 
 .customers-list {
     flex-wrap: wrap;
@@ -149,6 +166,7 @@
 /* ----------------------------FOOTER------------------ */
 
 .footer .container {
+    padding: 0;
     max-width: 552px;
     display: flex;
     flex-direction: row;

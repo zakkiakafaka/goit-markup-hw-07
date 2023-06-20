@@ -367,9 +367,15 @@ body {
     pointer-events: none;
 }
 
+@media screen and (max-width: 428px) {
+    .modal {
+        width: calc(100% - 18px);
+    }
+}
+
 .modal {
     position: absolute;
-    width: 408px;
+    max-width: 408px;
     min-height: 584px;
     padding-top: 72px;
     padding-bottom: 24px;
