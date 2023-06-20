@@ -84,6 +84,10 @@ body {
     padding: 96px 0;
 }
 
+.features-list {
+    display: flex;
+}
+
 .features-icon-container {
     display: none;
 }
@@ -103,11 +107,6 @@ body {
     color: var(--secondary-text-color);
 }
 
-/* ---------------------------OCCUPATION SECTION---------------------- */
-
-.occupation-section {
-    display: none;
-}
 
 /* --------------------------TEAM SECTION------------------------ */
 
@@ -124,6 +123,10 @@ body {
     line-height: 1.11;
     text-align: center;
     color: var(--section-header-color);
+}
+
+.team-list {
+    display: flex;
 }
 
 .team-list-item {
@@ -199,6 +202,22 @@ body {
     line-height: 1.11;
     text-align: center;
     color: var(--section-header-color);
+}
+
+.customers-list {
+    display: flex;
+}
+
+.customers-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    color: #8e8f99;
+    transition: border-color var(--base-transition), color var(--base-transition);
 }
 
 .customers-icon {

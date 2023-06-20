@@ -9,7 +9,12 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
-    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/components.css">
+    <link rel="stylesheet" href="./css/vars.css">
+    <link rel="stylesheet" href="./css/mobile.css" media="screen and (max-width: 767.9px)"/>
+    <link rel="stylesheet" href="./css/tablet.css" media="screen and (min-width:768px) and (max-width:1157.9px)"/>
+    <link rel="stylesheet" href="./css/styles.css" media="screen and (min-width:1158px)"/>
 </head>
 <body>
   <header class="header">
@@ -18,10 +23,10 @@
         <a class="logo-link" href="./index.html" target="_self" title="main page WEBSTUDIO">Web<span class="logo">Studio</span></a>
         <ul class="navigation-list">
           <li class="navigation-list-item">
-            <a class="navigation-link" href="./index.html" target="_self" title="main page WEBSTUDIO">Studio</a>
+            <a class="navigation-link is-active" href="./index.html" target="_self" title="main page WEBSTUDIO">Studio</a>
           </li>
           <li class="navigation-list-item">
-            <a class="navigation-link is-active" href="./portfolio.html" target="_self" title="Portfolio page">Portfolio</a>
+            <a class="navigation-link" href="./portfolio.html" target="_self" title="Portfolio page">Portfolio</a>
           </li>
           <li class="navigation-list-item">
             <a class="navigation-link" href="" target="_self" title="Contacts page">Contacts</a>
@@ -38,6 +43,13 @@
           </li>
         </ul>
       </address>
+      <button type="button" class="burger-menu-btn js-open-menu">
+        <svg class="burger-menu-svg" width="32" height="22">
+          <use href="./images/icons.svg#icon-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </header>
     </div>
   </header>
       <main>
@@ -231,5 +243,77 @@
           </div>
         </div>
       </footer>
+      <div class="mobile-menu js-menu-container is-hidden">
+        <div class="container mobile-menu-wrapper">
+          <button type="button" class="back-menu-btn js-close-menu">
+            <svg class="modal-back-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <div class="menu-navigation-wrapper">
+            <ul class="menu-navigation-list">
+              <li class="menu-navigation-list-item">
+                <a href="./index.html" class="mobile-navigation-link active"
+                  >Studio</a
+                >
+              </li>
+              <li class="menu-navigation-list-item">
+                <a href="./portfolio.html" class="mobile-navigation-link"
+                  >Portfolio</a
+                >
+              </li>
+              <li class="menu-navigation-list-item">
+                <a href="" class="mobile-navigation-link">Contacts</a>
+              </li>
+            </ul>
+          </div>
+          <div class="contacts-wrapper">
+              <ul class="menu-cont-list">
+                <li class="menu-cont-list-item">
+                  <a href="tel:+110001111111" class="cont-info-tel"
+                    >+11 (000) 111-11-11
+                  </a>
+                </li>
+                <li class="menu-cont-list-item">
+                  <a
+                    href="mailto:info@devstudio.com"
+                    class="cont-info-mail link"
+                    >info@devstudio.com
+                  </a>
+                </li>
+              </ul>
+              <ul class="studio-social-list">
+                <li class="studio-social-list-item">
+                  <a class="studio-social-link" href="https://www.instagram.com/webstudio" target="_blank" rel="noreferrer noopener" title="Instagram webstudio">
+                     <svg class="studio-social-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-instagram-2"></use>
+                     </svg>
+                  </a>
+                </li>
+                <li class="studio-social-list-item">
+                  <a class="studio-social-link" href="https://www.twitter.com/webstudio" target="_blank" rel="noreferrer noopener" title="Twitter webstudio">
+                     <svg class="studio-social-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-twitter-1"></use>
+                     </svg>
+                  </a>
+                </li>
+                <li class="studio-social-list-item">
+                  <a class="studio-social-link" href="https://www.facebook.com/webstudio" target="_blank" rel="noreferrer noopener" title="Facebook webstudio">
+                     <svg class="studio-social-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-facebook-1"></use>
+                     </svg>
+                  </a>
+                </li>
+                <li class="studio-social-list-item">
+                  <a class="studio-social-link" href="https://ua.linkedin.com/webstudio" target="_blank" rel="noreferrer noopener" title="Linkedin of webstudio">
+                     <svg class="studio-social-icon" width="24" height="24">
+                      <use href="./images/icons.svg#icon-linkedin-1"></use>
+                     </svg>
+                  </a>
+                </li>
+              </ul>
+          </div>
+        </div>
+      </div>
 </body>
 </html>
