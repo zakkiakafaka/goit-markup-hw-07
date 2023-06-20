@@ -39,7 +39,7 @@
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url(../images/mobile/hero-bg-mobile.jpeg);
+      url(../images/webstudio/hero-background/mobile/hero-img@x1.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -54,7 +54,7 @@
           rgba(46, 47, 66, 0.7),
           rgba(46, 47, 66, 0.7)
         ),
-        url(../images/mobile/hero-bg-mobile@2x.jpeg);
+        url(../images/webstudio/hero-background/mobile/hero-img@x.jpg);
     }
   }
 
@@ -66,7 +66,7 @@
     margin: 0 auto;
   }
 
-/* ------------------------features--------------- */
+/* ------------------------FEATURES--------------- */
 
 .features-list {
     flex-direction: column;
@@ -175,11 +175,11 @@
 }
 
 .cont-info-tel:hover,.cont-info-mail:hover{
-    color: var(--accent-two);
+    color: var(--accent-color);
 }
 
 .cont-info-tel:focus,.cont-info-mail:focus{
-    color: var(--accent-two);
+    color: var(--accent-color);
 }
 
 .back-menu-btn{
@@ -201,9 +201,9 @@
 }
 
 
-.back-menu-btn:hover, back-menu-btn:focus{
-    fill: var(--primary-bg-color);
-    background-color: var(--accent-two);
+.back-menu-btn:hover, .back-menu-btn:focus{
+    fill: #ffffff;
+    background-color: var(--accent-color);
     border: none;
 
 }
